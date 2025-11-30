@@ -1,8 +1,6 @@
 # 🎥 Awesome-Long-Video-Understanding
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Paper](https://img.shields.io/badge/Arxiv-2511.16595-b31b1b.svg)](https://arxiv.org/abs/2511.16595)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A curated list of papers, datasets, and benchmarks for **Long Video Understanding**, with a special focus on but not limited to Multimodal Large Multimodal Models (LMMs).
 
@@ -26,8 +24,6 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
       - [Temporal Video Grounding](#temporal-video-grounding)
       - [Others](#others)
     - [Others](#others-1)
-  - [🤝 Contributing](#-contributing)
-  - [📝 License](#-license)
 
 ---
 
@@ -1735,13 +1731,3 @@ e.g., Mamba, linear attention
 
 *   **[VideoPASTA: 7K Preference Pairs That Matter for Video-LLM Alignment](http://arxiv.org/abs/2504.14096v3)** (2025.04)
     *   Focus: Introduces a new method to improve Video-LLMs' spatial, temporal, and cross-frame understanding.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to verify the references from the original TimeViper paper or add new SOTA works.
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
