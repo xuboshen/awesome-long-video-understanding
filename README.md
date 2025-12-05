@@ -1,5 +1,7 @@
 # 🎥 Awesome-Long-Video-Understanding
 
+Update date: 6th Dec 2025
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of papers, datasets, and benchmarks for **Long Video Understanding**, with a special focus on but not limited to Multimodal Large Multimodal Models (LMMs).
