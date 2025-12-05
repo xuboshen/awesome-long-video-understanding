@@ -2,8 +2,6 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Update date: 6th Dec 2025
-
 A curated list of papers, datasets, and benchmarks for **Long Video Understanding**, with a special focus on but not limited to Multimodal Large Multimodal Models (LMMs).
 
 Note: The *focus* of each paper is summarized from its arxiv abstract using DeepSeek-V3. Due to the large number of papers, there may be mistakes. If you find any, please open an issue to let us know. Thank you!
@@ -45,7 +43,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Existing benchmarks for egocentric AI assistants lack real-time processing and long-term memory requirements.
     *   citation: 0
 
-*   **[PlanarTrack: A high-quality and challenging benchmark for large-scale planar object tracking](http://arxiv.org/abs/2510.23368v1)** (2025.10)
+*   **[PlanarTrack: A high-quality and challenging benchmark for large-scale planar object tracking](http://arxiv.org/abs/2510.23368v1)** (ICCV2023 2025.10)
     *   Focus: Planar tracking advances for robotics and AR, focusing on degenerate cases.
     *   code: [https://github.com/HengLan/PlanarTrack](https://github.com/HengLan/PlanarTrack)
     *   citation: 0
@@ -134,7 +132,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Current Text-VQA datasets have limited video duration despite recent progress.
     *   citation: 0
 
-*   **[ScaleLong: A Multi-Timescale Benchmark for Long Video Understanding](http://arxiv.org/abs/2505.23922v1)** (2025.05)
+*   **[ScaleLong: A Multi-Timescale Benchmark for Long Video Understanding](http://arxiv.org/abs/2505.23922v1)** (NeurIPS2023 2025.05)
     *   Focus: Existing benchmarks lack hierarchical temporal modeling for long-video understanding.
     *   code: [https://github.com/multimodal-art-projection/ScaleLong](https://github.com/multimodal-art-projection/ScaleLong)
     *   citation: 3
@@ -316,7 +314,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: LLMs and LMMs struggle to emulate human understanding of complex, dynamic multimodal information.
     *   citation: 16
 
-*   **[LvBench: A Benchmark for Long-form Video Understanding with Versatile Multi-modal Question Answering](http://arxiv.org/abs/2312.04817v2)** (2023.12)
+*   **[LvBench: A Benchmark for Long-form Video Understanding with Versatile Multi-modal Question Answering](http://arxiv.org/abs/2312.04817v2)** (ICCV2025 2023.12)
     *   Focus: Current VideoQA datasets use short videos, limiting genuine long-form video understanding.
     *   citation: 22
 
@@ -324,7 +322,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Ego-Exo4D is a large multimodal multiview video dataset with simultaneous egocentric and exocentric recordings.
     *   citation: 301
 
-*   **[Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges](http://arxiv.org/abs/2309.13925v2)** (2023.09)
+*   **[Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges](http://arxiv.org/abs/2309.13925v2)** (CVPR2024 2023.09)
     *   Focus: Surveillance video tasks need expansion beyond classification to include temporal localization and dense captioning.
     *   project: [https://xuange923.github.io/Surveillance-Video-Understanding](https://xuange923.github.io/Surveillance-Video-Understanding)
     *   citation: 37
@@ -622,7 +620,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Video understanding is challenging due to high information redundancy compared to text or images.
     *   citation: 3
 
-*   **[MR. Video: "MapReduce" is the Principle for Long Video Understanding](http://arxiv.org/abs/2504.16082v1)** (2025.04)
+*   **[MR. Video: "MapReduce" is the Principle for Long Video Understanding](http://arxiv.org/abs/2504.16082v1)** (NeurIPS2025 2025.04)
     *   Focus: MR. Video uses MapReduce for dense perception and reasoning in long video understanding.
     *   code: [https://github.com/ziqipang/MR-Video](https://github.com/ziqipang/MR-Video)
     *   citation: 4
@@ -916,7 +914,7 @@ e.g., Mamba, linear attention
     *   project: [https://apollo-lmms.github.io](https://apollo-lmms.github.io)
     *   citation: 51
 
-*   **[D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition](http://arxiv.org/abs/2510.08818v1)** (2025.10)
+*   **[D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition](http://arxiv.org/abs/2510.08818v1)** (ICLR2022 2025.10)
     *   Focus: Vid-LLMs can be built by adapting image-pretrained VLMs, but face challenges with video-specific tasks.
     *   code: [https://github.com/hukcc/D-CoDe](https://github.com/hukcc/D-CoDe)
     *   citation: 0
@@ -1072,7 +1070,7 @@ e.g., Mamba, linear attention
     *   Focus: VLLMs struggle with long videos due to high computational demands.
     *   citation: 1
 
-*   **[FlexSelect: Flexible Token Selection for Efficient Long Video Understanding](http://arxiv.org/abs/2506.00993v1)** (2025.06)
+*   **[FlexSelect: Flexible Token Selection for Efficient Long Video Understanding](http://arxiv.org/abs/2506.00993v1)** (NeurIPS2025 2025.06)
     *   Focus: FlexSelect reduces computational demands for long video understanding in VideoLLMs.
     *   project: [https://yunzhuzhang0918.github.io/flex_select](https://yunzhuzhang0918.github.io/flex_select)
     *   citation: 4
@@ -1298,7 +1296,7 @@ e.g., Mamba, linear attention
     *   Focus: Increasing vision tokens improves understanding but raises memory costs in large vision-language models.
     *   citation: 26
 
-*   **[Kangaroo: A Powerful Video-Language Model Supporting Long-context Video Input](http://arxiv.org/abs/2408.15542v1)** (2024.08)
+*   **[Kangaroo: A Powerful Video-Language Model Supporting Long-context Video Input](http://arxiv.org/abs/2408.15542v1)** (NeurIPS2024 2024.08)
     *   Focus: Extending LLMs to handle video input remains a challenging research area.
     *   citation: 99
 
@@ -1424,7 +1422,7 @@ e.g., Mamba, linear attention
     *   project: [https://streamvln.github.io/](https://streamvln.github.io/)
     *   citation: 21
 
-*   **[Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2406.08085v2)** (2024.06)
+*   **[Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2406.08085v2)** (ICCV2025 2024.06)
     *   Focus: Existing video understanding methods excel offline but face challenges in real-time applications.
     *   project: [https://invinciblewyq.github.io/vstream-page/](https://invinciblewyq.github.io/vstream-page/)
     *   citation: 87
@@ -1551,7 +1549,7 @@ e.g., Mamba, linear attention
     *   project: [https://multimodal-vid.github.io/](https://multimodal-vid.github.io/)
     *   citation: 84
 
-*   **[Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges](http://arxiv.org/abs/2309.13925v2)** (2023.09)
+*   **[Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges](http://arxiv.org/abs/2309.13925v2)** (CVPR2024 2023.09)
     *   Focus: Surveillance video tasks need expansion beyond classification to include temporal localization and dense captioning.
     *   project: [https://xuange923.github.io/Surveillance-Video-Understanding](https://xuange923.github.io/Surveillance-Video-Understanding)
     *   citation: 37
@@ -2024,7 +2022,7 @@ e.g., Mamba, linear attention
     *   project: [https://katha-ai.github.io/projects/velociti](https://katha-ai.github.io/projects/velociti)
     *   citation: 3
 
-*   **[MAMBA4D: Efficient Long-Sequence Point Cloud Video Understanding with Disentangled Spatial-Temporal State Space Models](http://arxiv.org/abs/2405.14338v3)** (2024.05)
+*   **[MAMBA4D: Efficient Long-Sequence Point Cloud Video Understanding with Disentangled Spatial-Temporal State Space Models](http://arxiv.org/abs/2405.14338v3)** (CVPR2025 2024.05)
     *   Focus: Point cloud videos capture spatial and temporal dynamics for intelligent agents.
     *   code: [https://github.com/IRMVLab/Mamba4D](https://github.com/IRMVLab/Mamba4D)
     *   citation: 11
@@ -2110,7 +2108,7 @@ e.g., Mamba, linear attention
     *   code: [https://github.com/Thinksky5124/SVTAS](https://github.com/Thinksky5124/SVTAS)
     *   citation: 0
 
-*   **[Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges](http://arxiv.org/abs/2309.13925v2)** (2023.09)
+*   **[Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges](http://arxiv.org/abs/2309.13925v2)** (CVPR2024 2023.09)
     *   Focus: Surveillance video tasks need expansion beyond classification to include temporal localization and dense captioning.
     *   project: [https://xuange923.github.io/Surveillance-Video-Understanding](https://xuange923.github.io/Surveillance-Video-Understanding)
     *   citation: 37
