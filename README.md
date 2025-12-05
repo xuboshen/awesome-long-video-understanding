@@ -2,8 +2,6 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Update date: 5th, Dec., 2025
-
 A curated list of papers, datasets, and benchmarks for **Long Video Understanding**, with a special focus on but not limited to Multimodal Large Multimodal Models (LMMs).
 
 Note: The *focus* of each paper is summarized from its arxiv abstract using DeepSeek-V3. Due to the large number of papers, there may be mistakes. If you find any, please open an issue to let us know. Thank you!
@@ -48,7 +46,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Planar tracking advances for robotics and AR, focusing on degenerate cases.
     *   citation: 0
 
-*   **[MUVR: A Multi-Modal Untrimmed Video Retrieval Benchmark with Multi-Level Visual Correspondence](http://arxiv.org/abs/2510.21406v1)** (2025.10)
+*   **[MUVR: A Multi-Modal Untrimmed Video Retrieval Benchmark with Multi-Level Visual Correspondence](http://arxiv.org/abs/2510.21406v1)** (NeurIPS2025 2025.10)
     *   Focus: Proposes MUVR benchmark for multi-modal untrimmed video retrieval on long videos.
     *   citation: 0
 
@@ -68,7 +66,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Video-based MRAG benchmarks enable MLLMs to generate responses using external multimodal evidence.
     *   citation: 0
 
-*   **[StreamForest: Efficient Online Video Understanding with Persistent Event Memory](http://arxiv.org/abs/2509.24871v1)** (2025.09)
+*   **[StreamForest: Efficient Online Video Understanding with Persistent Event Memory](http://arxiv.org/abs/2509.24871v1)** (NeurIPS2025 2025.09)
     *   Focus: MLLMs struggle with real-time video streaming due to storage constraints.
     *   citation: 2
 
@@ -132,7 +130,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Long chain-of-thought reasoning improves LLMs but lacks demonstration for long video understanding tasks.
     *   citation: 4
 
-*   **[Two Causally Related Needles in a Video Haystack](http://arxiv.org/abs/2505.19853v3)** (2025.05)
+*   **[Two Causally Related Needles in a Video Haystack](http://arxiv.org/abs/2505.19853v3)** (NeurIPS2025 2025.05)
     *   Focus: Causal2Needles benchmark evaluates VLMs on long video understanding tasks.
     *   citation: 0
 
@@ -152,7 +150,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: LVLMs lack video causal reasoning benchmarks, limiting their evaluation and development.
     *   citation: 1
 
-*   **[RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](http://arxiv.org/abs/2505.02064v3)** (2025.05)
+*   **[RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](http://arxiv.org/abs/2505.02064v3)** (NeurIPS2025 2025.05)
     *   Focus: Current benchmarks fail to assess MLLMs' continuous perception and reasoning abilities.
     *   citation: 4
 
@@ -176,11 +174,11 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Proposes a new MLLM architecture for improved long video understanding and temporal reasoning.
     *   citation: 6
 
-*   **[MomentSeeker: A Task-Oriented Benchmark For Long-Video Moment Retrieval](http://arxiv.org/abs/2502.12558v4)** (2025.02)
+*   **[MomentSeeker: A Task-Oriented Benchmark For Long-Video Moment Retrieval](http://arxiv.org/abs/2502.12558v4)** (NeurIPS2025 2025.02)
     *   Focus: Proposes a new benchmark for long video understanding with longer videos and more diverse tasks.
     *   citation: 1
 
-*   **[SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding](http://arxiv.org/abs/2502.10810v2)** (2025.02)
+*   **[SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding](http://arxiv.org/abs/2502.10810v2)** (ICLR2025 2025.02)
     *   Focus: LVLMs lack suitable evaluation for emerging applications.
     *   citation: 20
 
@@ -205,7 +203,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: LLMs enhance video tasks like action recognition and anomaly detection despite unique challenges.
     *   citation: 9
 
-*   **[CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding](http://arxiv.org/abs/2412.12075v1)** (2024.12)
+*   **[CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding](http://arxiv.org/abs/2412.12075v1)** (ICLR2025 2024.12)
     *   Focus: Existing long video benchmarks for MLLMs rely on single annotations, limiting evaluation of temporal reasoning.
     *   citation: 35
 
@@ -221,7 +219,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: The Second Perception Test challenge at ECCV 2024 continues benchmarking visual perception tasks.
     *   citation: 3
 
-*   **[HourVideo: 1-Hour Video-Language Understanding](http://arxiv.org/abs/2411.04998v1)** (2024.11)
+*   **[HourVideo: 1-Hour Video-Language Understanding](http://arxiv.org/abs/2411.04998v1)** (NeurIPS2024 2024.11)
     *   Focus: HourVideo is a benchmark for hour-long video understanding with summarization, perception, and reasoning tasks.
     *   citation: 79
 
@@ -233,11 +231,11 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Existing video benchmarks lack fine-grained temporal annotations for detailed video understanding.
     *   citation: 38
 
-*   **[MM-Ego: Towards Building Egocentric Multimodal LLMs for Video QA](http://arxiv.org/abs/2410.07177v2)** (2024.10)
+*   **[MM-Ego: Towards Building Egocentric Multimodal LLMs for Video QA](http://arxiv.org/abs/2410.07177v2)** (ICLR2025 2024.10)
     *   Focus: This research builds a multimodal foundation model for egocentric video understanding.
     *   citation: 17
 
-*   **[LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding](http://arxiv.org/abs/2407.15754v1)** (2024.07)
+*   **[LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding](http://arxiv.org/abs/2407.15754v1)** (NeurIPS2024 2024.07)
     *   Focus: Introduces a new benchmark for evaluating large multimodal models on long, rich inputs.
     *   citation: 311
 
@@ -245,7 +243,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Long video understanding is challenging due to inadequate benchmarks for multi-modal models.
     *   citation: 1
 
-*   **[MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding](http://arxiv.org/abs/2406.14515v3)** (2024.06)
+*   **[MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding](http://arxiv.org/abs/2406.14515v3)** (NeurIPS2024 2024.06)
     *   Focus: LVLMs advance video understanding beyond traditional VideoQA benchmarks.
     *   citation: 137
 
@@ -261,7 +259,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Multimodal LLMs improve short video understanding, but lack benchmarks for long videos.
     *   citation: 184
 
-*   **[Vript: A Video Is Worth Thousands of Words](http://arxiv.org/abs/2406.06040v2)** (2024.06)
+*   **[Vript: A Video Is Worth Thousands of Words](http://arxiv.org/abs/2406.06040v2)** (NeurIPS2024 2024.06)
     *   Focus: Vript introduces a method to create high-quality video-text datasets for multimodal learning.
     *   citation: 54
 
@@ -297,7 +295,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: A 234-hour multi-camera tracking dataset covering 4.2 miles of interstate highway.
     *   citation: 21
 
-*   **[EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding](http://arxiv.org/abs/2308.09126v1)** (2023.08)
+*   **[EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding](http://arxiv.org/abs/2308.09126v1)** (NeurIPS2023 2023.08)
     *   Focus: EgoSchema is a long-form video QA dataset and benchmark for evaluating video understanding systems.
     *   citation: 463
 
@@ -313,11 +311,11 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Existing long video benchmarks lack scale and annotation quality due to collection difficulties.
     *   citation: 2
 
-*   **[EPIC-KITCHENS VISOR Benchmark: VIdeo Segmentations and Object Relations](http://arxiv.org/abs/2209.13064v1)** (2022.09)
+*   **[EPIC-KITCHENS VISOR Benchmark: VIdeo Segmentations and Object Relations](http://arxiv.org/abs/2209.13064v1)** (NeurIPS2022 2022.09)
     *   Focus: VISOR introduces a pixel-level annotation dataset and benchmark for hand and active object segmentation in egocentric video.
     *   citation: 127
 
-*   **[Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities](http://arxiv.org/abs/2203.14712v2)** (2022.03)
+*   **[Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities](http://arxiv.org/abs/2203.14712v2)** (CVPR2022 2022.03)
     *   Focus: Assembly101 dataset contains 4321 videos of people assembling toy vehicles without fixed instructions.
     *   citation: 280
 
@@ -340,7 +338,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Nemotron Nano V2 VL advances document understanding, long video comprehension, and reasoning tasks.
     *   citation: 1
 
-*   **[Eagle 2.5: Boosting Long-Context Post-Training for Frontier Vision-Language Models](http://arxiv.org/abs/2504.15271v1)** (2025.04)
+*   **[Eagle 2.5: Boosting Long-Context Post-Training for Frontier Vision-Language Models](http://arxiv.org/abs/2504.15271v1)** (NeurIPS2025 2025.04)
     *   Focus: Eagle 2.5 introduces vision-language models for long video and high-resolution image understanding.
     *   citation: 20
 
@@ -381,11 +379,11 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: LLMs combined with visual encoders improve visual understanding tasks.
     *   citation: 17
 
-*   **[mPLUG-Owl3: Towards Long Image-Sequence Understanding in Multi-Modal Large Language Models](http://arxiv.org/abs/2408.04840v2)** (2024.08)
+*   **[mPLUG-Owl3: Towards Long Image-Sequence Understanding in Multi-Modal Large Language Models](http://arxiv.org/abs/2408.04840v2)** (ICLR2025 2024.08)
     *   Focus: MLLMs excel at single-image tasks but face challenges in other areas.
     *   citation: 206
 
-*   **[ST-LLM: Large Language Models Are Effective Temporal Learners](http://arxiv.org/abs/2404.00308v1)** (2024.03)
+*   **[ST-LLM: Large Language Models Are Effective Temporal Learners](http://arxiv.org/abs/2404.00308v1)** (ECCV2024 2024.03)
     *   Focus: Research explores video LLMs for human-AI interaction using text comprehension and generation.
     *   citation: 119
 
@@ -405,14 +403,14 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: EMA addresses inefficient video processing and motion awareness in MLLMs.
     *   citation: 3
 
-*   **[Koala: Key frame-conditioned long video-LLM](http://arxiv.org/abs/2404.04346v3)** (2024.04)
+*   **[Koala: Key frame-conditioned long video-LLM](http://arxiv.org/abs/2404.04346v3)** (CVPR2024 2024.04)
     *   Focus: Video LLMs struggle with long videos due to short-term focus and lack of fine-grained relationship reasoning.
     *   citation: 58
 
 ### Subsampling methods
 #### RAG / Memory / Agentic / Language Repository / Frame Sampling Methods
 
-*   **[Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding](http://arxiv.org/abs/2510.14032v1)** (2025.10)
+*   **[Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding](http://arxiv.org/abs/2510.14032v1)** (NeurIPS2025 2025.10)
     *   Focus: Long video understanding is limited by token processing constraints in large video language models.
     *   citation: 2
 
@@ -470,7 +468,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Agent-based approaches are gaining popularity for processing long videos.
     *   citation: 12
 
-*   **[VideoLucy: Deep Memory Backtracking for Long Video Understanding](http://arxiv.org/abs/2510.12422v1)** (2025.10)
+*   **[VideoLucy: Deep Memory Backtracking for Long Video Understanding](http://arxiv.org/abs/2510.12422v1)** (NeurIPS2025 2025.10)
     *   Focus: Agent-based systems using LLMs for information retrieval show promise in long video understanding.
     *   citation: 0
 
@@ -527,7 +525,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: MLLMs need better video reasoning for tasks like QA and temporal grounding, but current methods rely too much on text.
     *   citation: 18
 
-*   **[Temporal Chain of Thought: Long-Video Understanding by Thinking in Frames](http://arxiv.org/abs/2507.02001v1)** (2025.07)
+*   **[Temporal Chain of Thought: Long-Video Understanding by Thinking in Frames](http://arxiv.org/abs/2507.02001v1)** (NeurIPS2025 2025.07)
     *   Focus: Long-video understanding remains challenging despite VLMs processing up to 1000 frames.
     *   citation: 7
 
@@ -535,7 +533,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: MLLMs struggle with long videos due to inefficient temporal perception.
     *   citation: 1
 
-*   **[AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding](http://arxiv.org/abs/2506.13589v3)** (2025.06)
+*   **[AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding](http://arxiv.org/abs/2506.13589v3)** (NeurIPS2025 2025.06)
     *   Focus: MLLMs struggle with long videos due to fixed context and weak long-term modeling, suggesting retrieval-augmented generation as a solution.
     *   citation: 4
 
@@ -551,7 +549,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: MLLMs struggle with long video understanding despite advances in short video analysis.
     *   citation: 11
 
-*   **[Deep Video Discovery: Agentic Search with Tool Use for Long-form Video Understanding](http://arxiv.org/abs/2505.18079v4)** (2025.05)
+*   **[Deep Video Discovery: Agentic Search with Tool Use for Long-form Video Understanding](http://arxiv.org/abs/2505.18079v4)** (NeurIPS2025 2025.05)
     *   Focus: Long video understanding faces challenges from temporal-spatial complexity and extended context question answering.
     *   citation: 7
 
@@ -587,12 +585,12 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: This paper explores dynamic 3D scene understanding from egocentric views for robotics and embodied AI.
     *   citation: 10
 
-*   **[Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension](http://arxiv.org/abs/2411.13093v4)** (2024.11)
+*   **[Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension](http://arxiv.org/abs/2411.13093v4)** (NeurIPS2025 2024.11)
     *   Focus: Fine-tuning long-context LVLMs and using GPT agents to improve long video understanding.
     *   citation: 63
 
 
-*   **[AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding](http://arxiv.org/abs/2506.13589v3)** (2025.06)
+*   **[AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding](http://arxiv.org/abs/2506.13589v3)** (NeurIPS2025 2025.06)
     *   Focus: MLLMs struggle with long videos due to fixed context and weak long-term modeling, suggesting retrieval-augmented generation as a solution.
     *   citation: 4
 
@@ -608,7 +606,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: LMMs struggle with long videos, while LLMs excel using language as a compressed representation.
     *   citation: 1
 
-*   **[Understanding Long Videos with Multimodal Language Models](http://arxiv.org/abs/2403.16998v5)** (2024.03)
+*   **[Understanding Long Videos with Multimodal Language Models](http://arxiv.org/abs/2403.16998v5)** (ICLR2025 2024.03)
     *   Focus: LLMs' world knowledge and reasoning improve long-video understanding benchmarks.
     *   citation: 15
     *   code: https://github.com/kahnchana/mvu
@@ -617,7 +615,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: LLMs' long-context effectiveness declines over time despite supporting extended inputs.
     *   citation: 48
 
-*   **[VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](http://arxiv.org/abs/2403.11481v2)** (2024.03)
+*   **[VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding](http://arxiv.org/abs/2403.11481v2)** (ECCV2024 2024.03)
     *   Focus: A unified memory mechanism combines foundation models for improved video understanding.
     *   citation: 139
     *   code: https://github.com/YueFan1014/VideoAgent
@@ -679,7 +677,7 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Efficient video editing techniques are needed to condense long videos into concise summaries.
     *   citation: 0
 
-*   **[Temporal Chain of Thought: Long-Video Understanding by Thinking in Frames](http://arxiv.org/abs/2507.02001v1)** (2025.07)
+*   **[Temporal Chain of Thought: Long-Video Understanding by Thinking in Frames](http://arxiv.org/abs/2507.02001v1)** (NeurIPS2025 2025.07)
     *   Focus: Long-video understanding remains challenging despite VLMs processing up to 1000 frames.
     *   citation: 7
 
@@ -744,11 +742,11 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   Focus: Recent methods sample many frames or use auxiliary tools for long video understanding.
     *   citation: 21
 
-*   **[Towards Neuro-Symbolic Video Understanding](http://arxiv.org/abs/2403.11021v3)** (2024.03)
+*   **[Towards Neuro-Symbolic Video Understanding](http://arxiv.org/abs/2403.11021v3)** (ECCV2024 2024.03)
     *   Focus: Efficient frame extraction methods are needed for long-term temporal reasoning in videos.
     *   citation: 19
 
-*   **[VideoAgent: Long-form Video Understanding with Large Language Model as Agent](http://arxiv.org/abs/2403.10517v1)** (2024.03)
+*   **[VideoAgent: Long-form Video Understanding with Large Language Model as Agent](http://arxiv.org/abs/2403.10517v1)** (ECCV2024 2024.03)
     *   Focus: Long-form video understanding requires models that reason over long multi-modal sequences, inspired by human cognition.
     *   citation: 204
 
@@ -781,7 +779,7 @@ e.g., Mamba, linear attention
     *   Focus: Systematic approaches are needed to expand MLLMs' long-context capabilities for video understanding and high-resolution image analysis.
     *   citation: 82
 
-*   **[VideoMamba: Spatio-Temporal Selective State Space Model](http://arxiv.org/abs/2407.08476v1)** (2024.07)
+*   **[VideoMamba: Spatio-Temporal Selective State Space Model](http://arxiv.org/abs/2407.08476v1)** (ECCV2024 2024.07)
     *   Focus: VideoMamba adapts the Mamba architecture for efficient video recognition without self-attention.
     *   citation: 22
 
@@ -789,11 +787,11 @@ e.g., Mamba, linear attention
     *   Focus: Video understanding research explores architectures like RNN, 3D CNN, and Transformers.
     *   citation: 116
 
-*   **[VideoMamba: State Space Model for Efficient Video Understanding](http://arxiv.org/abs/2403.06977v2)** (2024.03)
+*   **[VideoMamba: State Space Model for Efficient Video Understanding](http://arxiv.org/abs/2403.06977v2)** (ECCV2024 2024.03)
     *   Focus: VideoMamba adapts Mamba to video to address redundancy and global dependencies.
     *   citation: 355
 
-*   **[World Model on Million-Length Video And Language With Blockwise RingAttention](http://arxiv.org/abs/2402.08268v4)** (2024.02)
+*   **[World Model on Million-Length Video And Language With Blockwise RingAttention](http://arxiv.org/abs/2402.08268v4)** (ICLR2025 2024.02)
     *   Focus: Long-context understanding is a key challenge for scaling sequence models in AI.
     *   citation: 128
 
@@ -815,12 +813,12 @@ e.g., Mamba, linear attention
 
 #### Token Compression
 
-*   **[LongVLM: Efficient Long Video Understanding via Large Language Models](http://arxiv.org/abs/2404.03384v3)** (2024.04)
+*   **[LongVLM: Efficient Long Video Understanding via Large Language Models](http://arxiv.org/abs/2404.03384v3)** (ECCV2024 2024.04)
     *   Focus: VideoLLMs use LLMs for video understanding by encoding video representations.
     *   citation: 114
     *   code: https://github.com/ziplab/LongVLM
 
-*   **[MM-Ego: Towards Building Egocentric Multimodal LLMs for Video QA](http://arxiv.org/abs/2410.07177v2)** (2024.10)
+*   **[MM-Ego: Towards Building Egocentric Multimodal LLMs for Video QA](http://arxiv.org/abs/2410.07177v2)** (ICLR2025 2024.10)
     *   Focus: This research builds a multimodal foundation model for egocentric video understanding.
     *   citation: 17
 
@@ -836,7 +834,7 @@ e.g., Mamba, linear attention
     *   Focus: Video-LMMs use advanced visual-language reasoning for long video understanding.
     *   citation: 0
 
-*   **[Unleashing Hour-Scale Video Training for Long Video-Language Understanding](http://arxiv.org/abs/2506.05332v1)** (2025.06)
+*   **[Unleashing Hour-Scale Video Training for Long Video-Language Understanding](http://arxiv.org/abs/2506.05332v1)** (NeurIPS2025 2025.06)
     *   Focus: Long video understanding benchmarks advance Video-LMMs, but scarce annotated data limits training.
     *   citation: 9
 
@@ -876,7 +874,7 @@ e.g., Mamba, linear attention
     *   Focus: LLMs are applied to video understanding for their language and reasoning capabilities.
     *   citation: 3
 
-*   **[Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](http://arxiv.org/abs/2510.17364v1)** (2025.10)
+*   **[Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](http://arxiv.org/abs/2510.17364v1)** (NeurIPS2025 2025.10)
     *   Focus: Video-LLMs struggle with streaming video understanding due to limited access to full video content.
     *   citation: 0
 
@@ -896,7 +894,7 @@ e.g., Mamba, linear attention
     *   Focus: Addresses video understanding limitations in multimodal models due to short context lengths.
     *   citation: 1
 
-*   **[StreamForest: Efficient Online Video Understanding with Persistent Event Memory](http://arxiv.org/abs/2509.24871v1)** (2025.09)
+*   **[StreamForest: Efficient Online Video Understanding with Persistent Event Memory](http://arxiv.org/abs/2509.24871v1)** (NeurIPS2025 2025.09)
     *   Focus: MLLMs struggle with real-time video streaming due to storage constraints.
     *   citation: 2
 
@@ -950,7 +948,7 @@ e.g., Mamba, linear attention
     *   Focus: MLLMs struggle with long video processing due to high computational demands.
     *   citation: 12
 
-*   **[InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding](http://arxiv.org/abs/2506.15745v2)** (2025.06)
+*   **[InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding](http://arxiv.org/abs/2506.15745v2)** (NeurIPS2025 2025.06)
     *   Focus: MLLMs' KV cache grows linearly with video length, exceeding device memory limits.
     *   citation: 6
 
@@ -1026,7 +1024,7 @@ e.g., Mamba, linear attention
     *   Focus: Long-form video understanding is essential but computationally intensive for traditional methods.
     *   citation: 1
 
-*   **[Logic-in-Frames: Dynamic Keyframe Search via Visual Semantic-Logical Verification for Long Video Understanding](http://arxiv.org/abs/2503.13139v2)** (2025.03)
+*   **[Logic-in-Frames: Dynamic Keyframe Search via Visual Semantic-Logical Verification for Long Video Understanding](http://arxiv.org/abs/2503.13139v2)** (NeurIPS2025 2025.03)
     *   Focus: Current long video understanding methods neglect logical relations in dense captions and feature selection.
     *   citation: 15
 
@@ -1038,7 +1036,7 @@ e.g., Mamba, linear attention
     *   Focus: Transformers struggle with long videos due to quadratic attention complexity and high computational costs.
     *   citation: 17
 
-*   **[FastVID: Dynamic Density Pruning for Fast Video Large Language Models](http://arxiv.org/abs/2503.11187v2)** (2025.03)
+*   **[FastVID: Dynamic Density Pruning for Fast Video Large Language Models](http://arxiv.org/abs/2503.11187v2)** (NeurIPS2025 2025.03)
     *   Focus: Video LLMs have strong understanding but high inference costs from redundant tokens.
     *   citation: 10
 
@@ -1154,7 +1152,7 @@ e.g., Mamba, linear attention
     *   Focus: Research shifts focus to long video understanding as short video challenges are considered solved.
     *   citation: 15
 
-*   **[Learning to Localize Actions in Instructional Videos with LLM-Based Multi-Pathway Text-Video Alignment](http://arxiv.org/abs/2409.16145v1)** (2024.09)
+*   **[Learning to Localize Actions in Instructional Videos with LLM-Based Multi-Pathway Text-Video Alignment](http://arxiv.org/abs/2409.16145v1)** (ECCV2024 2024.09)
     *   Focus: Proposes a method to localize steps in instructional videos using limited annotations.
     *   citation: 5
 
@@ -1178,7 +1176,7 @@ e.g., Mamba, linear attention
     *   Focus: Long-form video understanding faces challenges in capturing long-range dependencies and processing redundant information.
     *   citation: 6
 
-*   **[VideoLLM-MoD: Efficient Video-Language Streaming with Mixture-of-Depths Vision Computation](http://arxiv.org/abs/2408.16730v1)** (2024.08)
+*   **[VideoLLM-MoD: Efficient Video-Language Streaming with Mixture-of-Depths Vision Computation](http://arxiv.org/abs/2408.16730v1)** (NeurIPS2024 2024.08)
     *   Focus: Increasing vision tokens improves understanding but raises memory costs in large vision-language models.
     *   citation: 26
 
@@ -1186,7 +1184,7 @@ e.g., Mamba, linear attention
     *   Focus: Extending LLMs to handle video input remains a challenging research area.
     *   citation: 99
 
-*   **[Goldfish: Vision-Language Understanding of Arbitrarily Long Videos](http://arxiv.org/abs/2407.12679v1)** (2024.07)
+*   **[Goldfish: Vision-Language Understanding of Arbitrarily Long Videos](http://arxiv.org/abs/2407.12679v1)** (ECCV2024 2024.07)
     *   Focus: LLM-based video models struggle with long videos due to noise, redundancy, and memory constraints.
     *   citation: 31
 
@@ -1198,7 +1196,7 @@ e.g., Mamba, linear attention
     *   Focus: Vision-language models need better long video understanding, which current LLM-based methods struggle with.
     *   citation: 160
 
-*   **[Text-Conditioned Resampler For Long Form Video Understanding](http://arxiv.org/abs/2312.11897v3)** (2023.12)
+*   **[Text-Conditioned Resampler For Long Form Video Understanding](http://arxiv.org/abs/2312.11897v3)** (ECCV2024 2023.12)
     *   Focus: A text-conditioned video resampler uses frozen visual and language models to process long videos.
     *   citation: 21
 
@@ -1206,7 +1204,7 @@ e.g., Mamba, linear attention
     *   Focus: TimeChat is a time-sensitive MLLM for long video understanding with timestamp-aware frame tokenization and temporal attention.
     *   citation: 326
 
-*   **[LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models](http://arxiv.org/abs/2311.17043v1)** (2023.11)
+*   **[LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models](http://arxiv.org/abs/2311.17043v1)** (ECCV2024 2023.11)
     *   Focus: LLaMA-VID reduces tokens for efficient video/image understanding in Vision Language Models.
     *   citation: 450
 
@@ -1225,7 +1223,7 @@ e.g., Mamba, linear attention
 
 ### Temporal Modeling (timestamp / time positional encoding)
 
-*   **[HoPE: Hybrid of Position Embedding for Long Context Vision-Language Models](http://arxiv.org/abs/2505.20444v2)** (2025.05)
+*   **[HoPE: Hybrid of Position Embedding for Long Context Vision-Language Models](http://arxiv.org/abs/2505.20444v2)** (NeurIPS2025 2025.05)
     *   Focus: VLMs struggle with long videos due to limited context windows, requiring new architectures for long-range dependencies.
     *   citation: 2
 
@@ -1237,7 +1235,7 @@ e.g., Mamba, linear attention
 ### Downstream tasks 
 #### Real-time Interaction
 
-*   **[AHA -- Predicting What Matters Next: Online Highlight Detection Without Looking Ahead](http://arxiv.org/abs/2509.16421v2)** (2025.09)
+*   **[AHA -- Predicting What Matters Next: Online Highlight Detection Without Looking Ahead](http://arxiv.org/abs/2509.16421v2)** (NeurIPS2025 2025.09)
     *   Focus: Real-time video stream understanding is critical for autonomous vehicles, drones, and disaster response agents.
     *   citation: 0
 
@@ -1249,11 +1247,11 @@ e.g., Mamba, linear attention
     *   Focus: Real-time video understanding is needed for live streaming services.
     *   citation: 11
 
-*   **[Streaming Long Video Understanding with Large Language Models](http://arxiv.org/abs/2405.16009v1)** (2024.05)
+*   **[Streaming Long Video Understanding with Large Language Models](http://arxiv.org/abs/2405.16009v1)** (NeurIPS2024 2024.05)
     *   Focus: VideoStreaming is a VLLM that processes arbitrary-length videos using a constant number of tokens.
     *   citation: 102
 
-*   **[Streaming Video Understanding and Multi-round Interaction with Memory-enhanced Knowledge](http://arxiv.org/abs/2501.13468v1)** (2025.01)
+*   **[Streaming Video Understanding and Multi-round Interaction with Memory-enhanced Knowledge](http://arxiv.org/abs/2501.13468v1)** (ICLR2025 2025.01)
     *   Focus: Video-LLMs advance multimodal learning but struggle with long video understanding.
     *   citation: 19
 
@@ -1265,7 +1263,7 @@ e.g., Mamba, linear attention
     *   Focus: Video LLMs excel at long videos but lack benchmarks for temporal understanding.
     *   citation: 7
 
-*   **[StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](http://arxiv.org/abs/2505.05467v2)** (2025.05)
+*   **[StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](http://arxiv.org/abs/2505.05467v2)** (NeurIPS2025 2025.05)
     *   Focus: StreamBridge transforms offline Video-LLMs into streaming-capable models.
     *   citation: 4
 
@@ -1340,7 +1338,7 @@ e.g., Mamba, linear attention
     *   Focus: Audio Description aids vision-impaired audiences by narrating key visual elements in videos.
     *   citation: 1
 
-*   **[Logic-in-Frames: Dynamic Keyframe Search via Visual Semantic-Logical Verification for Long Video Understanding](http://arxiv.org/abs/2503.13139v2)** (2025.03)
+*   **[Logic-in-Frames: Dynamic Keyframe Search via Visual Semantic-Logical Verification for Long Video Understanding](http://arxiv.org/abs/2503.13139v2)** (NeurIPS2025 2025.03)
     *   Focus: Current long video understanding methods neglect logical relations in dense captions and feature selection.
     *   citation: 15
 
@@ -1368,7 +1366,7 @@ e.g., Mamba, linear attention
     *   Focus: Existing video caption benchmarks inadequately assess LVLM alignment with human understanding due to single-annotation limitations.
     *   citation: 3
 
-*   **[AuroraCap: Efficient, Performant Video Detailed Captioning and a New Benchmark](http://arxiv.org/abs/2410.03051v4)** (2024.10)
+*   **[AuroraCap: Efficient, Performant Video Detailed Captioning and a New Benchmark](http://arxiv.org/abs/2410.03051v4)** (ICLR2025 2024.10)
     *   Focus: This paper proposes a method for generating detailed and coherent video captions.
     *   citation: 87
 
@@ -1384,7 +1382,7 @@ e.g., Mamba, linear attention
     *   Focus: Video editing is crucial in digital media but existing methods often neglect key requirements.
     *   citation: 1
 
-*   **[ST-LLM: Large Language Models Are Effective Temporal Learners](http://arxiv.org/abs/2404.00308v1)** (2024.03)
+*   **[ST-LLM: Large Language Models Are Effective Temporal Learners](http://arxiv.org/abs/2404.00308v1)** (ECCV2024 2024.03)
     *   Focus: Research explores video LLMs for human-AI interaction using text comprehension and generation.
     *   citation: 119
 
@@ -1400,7 +1398,7 @@ e.g., Mamba, linear attention
     *   Focus: Proposes a model for long video understanding and dense captioning of high-level concepts.
     *   citation: 78
 
-*   **[Shot2Story: A New Benchmark for Comprehensive Understanding of Multi-shot Videos](http://arxiv.org/abs/2312.10300v3)** (2023.12)
+*   **[Shot2Story: A New Benchmark for Comprehensive Understanding of Multi-shot Videos](http://arxiv.org/abs/2312.10300v3)** (ICLR2025 2023.12)
     *   Focus: Video understanding requires capturing individual events and their associations to comprehend storylines.
     *   citation: 41
 
@@ -1448,7 +1446,7 @@ e.g., Mamba, linear attention
     *   Focus: TAL identifies and localizes actions in videos, with recent focus on appearance features.
     *   citation: 38
 
-*   **[An Efficient Spatio-Temporal Pyramid Transformer for Action Detection](http://arxiv.org/abs/2207.10448v1)** (2022.07)
+*   **[An Efficient Spatio-Temporal Pyramid Transformer for Action Detection](http://arxiv.org/abs/2207.10448v1)** (ECCV2022 2022.07)
     *   Focus: Action detection in long videos using vision Transformers to classify and localize actions.
     *   citation: 30
 
@@ -1462,7 +1460,7 @@ e.g., Mamba, linear attention
 
 #### Temporal Video Grounding
 
-*   **[TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning](http://arxiv.org/abs/2410.19702v2)** (2024.10)
+*   **[TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning](http://arxiv.org/abs/2410.19702v2)** (ICLR2025 2024.10)
     *   Focus: MLLMs struggle with long video understanding despite success with short videos.
     *   citation: 49
 
@@ -1507,7 +1505,7 @@ e.g., Mamba, linear attention
     *   Focus: VLMs advance visual-textual reasoning for high-res images, long videos, and multi-turn conversations.
     *   citation: 1
 
-*   **[Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](http://arxiv.org/abs/2510.17364v1)** (2025.10)
+*   **[Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](http://arxiv.org/abs/2510.17364v1)** (NeurIPS2025 2025.10)
     *   Focus: Video-LLMs struggle with streaming video understanding due to limited access to full video content.
     *   citation: 0
 
@@ -1591,7 +1589,7 @@ e.g., Mamba, linear attention
     *   Focus: MLLMs need better video reasoning for tasks like QA and temporal grounding, but current methods rely too much on text.
     *   citation: 18
 
-*   **[ROVER: Recursive Reasoning Over Videos with Vision-Language Models for Embodied Tasks](http://arxiv.org/abs/2508.01943v1)** (2025.08)
+*   **[ROVER: Recursive Reasoning Over Videos with Vision-Language Models for Embodied Tasks](http://arxiv.org/abs/2508.01943v1)** (NeurIPS2025 2025.08)
     *   Focus: Vision-language models struggle with reasoning over long video sequences.
     *   citation: 0
 
@@ -1611,7 +1609,7 @@ e.g., Mamba, linear attention
     *   Focus: MLLMs advance in visual tasks but struggle with human-centric video understanding.
     *   citation: 0
 
-*   **[Universal Video Temporal Grounding with Generative Multi-modal Large Language Models](http://arxiv.org/abs/2506.18883v2)** (2025.06)
+*   **[Universal Video Temporal Grounding with Generative Multi-modal Large Language Models](http://arxiv.org/abs/2506.18883v2)** (NeurIPS2025 2025.06)
     *   Focus: A model for localizing video moments using natural language queries.
     *   citation: 4
 
@@ -1635,11 +1633,11 @@ e.g., Mamba, linear attention
     *   Focus: Long chain-of-thought reasoning improves LLMs but lacks demonstration for long video understanding tasks.
     *   citation: 4
 
-*   **[Watch and Listen: Understanding Audio-Visual-Speech Moments with Multimodal LLM](http://arxiv.org/abs/2505.18110v2)** (2025.05)
+*   **[Watch and Listen: Understanding Audio-Visual-Speech Moments with Multimodal LLM](http://arxiv.org/abs/2505.18110v2)** (NeurIPS2025 2025.05)
     *   Focus: Video moment localization integrates visual and auditory cues to identify specific scenes.
     *   citation: 1
 
-*   **[Deep Video Discovery: Agentic Search with Tool Use for Long-form Video Understanding](http://arxiv.org/abs/2505.18079v4)** (2025.05)
+*   **[Deep Video Discovery: Agentic Search with Tool Use for Long-form Video Understanding](http://arxiv.org/abs/2505.18079v4)** (NeurIPS2025 2025.05)
     *   Focus: Long video understanding faces challenges from temporal-spatial complexity and extended context question answering.
     *   citation: 7
 
@@ -1671,7 +1669,7 @@ e.g., Mamba, linear attention
     *   Focus: MLLMs show potential for analyzing long soccer videos and identifying key highlights.
     *   citation: 3
 
-*   **[Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization](http://arxiv.org/abs/2504.12083v2)** (2025.04)
+*   **[Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization](http://arxiv.org/abs/2504.12083v2)** (NeurIPS2025 2025.04)
     *   Focus: LVLMs struggle with temporal details, hallucinate, and make errors on simple video QA tasks.
     *   citation: 2
 
@@ -1691,7 +1689,7 @@ e.g., Mamba, linear attention
     *   Focus: Revisits temporal search paradigms to address fundamental challenges in long-form video understanding.
     *   citation: 32
 
-*   **[MammAlps: A multi-view video behavior monitoring dataset of wild mammals in the Swiss Alps](http://arxiv.org/abs/2503.18223v2)** (2025.03)
+*   **[MammAlps: A multi-view video behavior monitoring dataset of wild mammals in the Swiss Alps](http://arxiv.org/abs/2503.18223v2)** (CVPR2025 2025.03)
     *   Focus: Camera traps enable habitat-centric wildlife monitoring for ecology and ethology studies.
     *   citation: 7
 
@@ -1699,7 +1697,7 @@ e.g., Mamba, linear attention
     *   Focus: Video understanding requires precise grounding of answers to visual evidence.
     *   citation: 29
 
-*   **[Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding](http://arxiv.org/abs/2503.13377v3)** (2025.03)
+*   **[Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding](http://arxiv.org/abs/2503.13377v3)** (NeurIPS2025 2025.03)
     *   Focus: TVG locates video segments from language queries, a key challenge in long video understanding.
     *   citation: 33
 
@@ -1771,7 +1769,7 @@ e.g., Mamba, linear attention
     *   Focus: MLLMs struggle with long video processing and precise moment retrieval due to LLM limitations.
     *   citation: 11
 
-*   **[BuckTales : A multi-UAV dataset for multi-object tracking and re-identification of wild antelopes](http://arxiv.org/abs/2411.06896v1)** (2024.11)
+*   **[BuckTales : A multi-UAV dataset for multi-object tracking and re-identification of wild antelopes](http://arxiv.org/abs/2411.06896v1)** (NeurIPS2024 2024.11)
     *   Focus: Animal behavior understanding is crucial for ecological impact assessment but faces data acquisition and analysis challenges.
     *   citation: 13
 
@@ -1791,11 +1789,11 @@ e.g., Mamba, linear attention
     *   Focus: Video analysis methods for medical education content are explored.
     *   citation: 0
 
-*   **[MECD: Unlocking Multi-Event Causal Discovery in Video Reasoning](http://arxiv.org/abs/2409.17647v4)** (2024.09)
+*   **[MECD: Unlocking Multi-Event Causal Discovery in Video Reasoning](http://arxiv.org/abs/2409.17647v4)** (NeurIPS2024 2024.09)
     *   Focus: Video causal reasoning tasks are currently limited in scope and executed as question-answering.
     *   citation: 19
 
-*   **[Learning to Localize Actions in Instructional Videos with LLM-Based Multi-Pathway Text-Video Alignment](http://arxiv.org/abs/2409.16145v1)** (2024.09)
+*   **[Learning to Localize Actions in Instructional Videos with LLM-Based Multi-Pathway Text-Video Alignment](http://arxiv.org/abs/2409.16145v1)** (ECCV2024 2024.09)
     *   Focus: Proposes a method to localize steps in instructional videos using limited annotations.
     *   citation: 5
 
@@ -1803,7 +1801,7 @@ e.g., Mamba, linear attention
     *   Focus: Robots face challenges in long-term environment understanding and answering human questions.
     *   citation: 29
 
-*   **[AMEGO: Active Memory from long EGOcentric videos](http://arxiv.org/abs/2409.10917v1)** (2024.09)
+*   **[AMEGO: Active Memory from long EGOcentric videos](http://arxiv.org/abs/2409.10917v1)** (ECCV2024 2024.09)
     *   Focus: AMEGO is a novel approach for understanding unstructured egocentric videos.
     *   citation: 18
 
@@ -1811,11 +1809,11 @@ e.g., Mamba, linear attention
     *   Focus: Video action localization finds action timings but requires costly video annotations.
     *   citation: 4
 
-*   **[HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization](http://arxiv.org/abs/2408.06437v1)** (2024.08)
+*   **[HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization](http://arxiv.org/abs/2408.06437v1)** (ECCV2024 2024.08)
     *   Focus: Online video understanding uses frame-by-frame predictions, extended by OnTAL for temporal action localization.
     *   citation: 5
 
-*   **[mPLUG-Owl3: Towards Long Image-Sequence Understanding in Multi-Modal Large Language Models](http://arxiv.org/abs/2408.04840v2)** (2024.08)
+*   **[mPLUG-Owl3: Towards Long Image-Sequence Understanding in Multi-Modal Large Language Models](http://arxiv.org/abs/2408.04840v2)** (ICLR2025 2024.08)
     *   Focus: MLLMs excel at single-image tasks but face challenges in other areas.
     *   citation: 206
 
@@ -1823,7 +1821,7 @@ e.g., Mamba, linear attention
     *   Focus: Video grounding localizes language queries in untrimmed videos, but current datasets are limited.
     *   citation: 2
 
-*   **[Fine-grained Dynamic Network for Generic Event Boundary Detection](http://arxiv.org/abs/2407.04274v1)** (2024.07)
+*   **[Fine-grained Dynamic Network for Generic Event Boundary Detection](http://arxiv.org/abs/2407.04274v1)** (ECCV2024 2024.07)
     *   Focus: Generic event boundary detection identifies human-perceived boundaries in long videos for better understanding.
     *   citation: 2
 
@@ -1861,7 +1859,7 @@ e.g., Mamba, linear attention
     *   Focus: Temporal video grounding aligns video content with language instructions for precise understanding.
     *   citation: 27
 
-*   **[Towards Neuro-Symbolic Video Understanding](http://arxiv.org/abs/2403.11021v3)** (2024.03)
+*   **[Towards Neuro-Symbolic Video Understanding](http://arxiv.org/abs/2403.11021v3)** (ECCV2024 2024.03)
     *   Focus: Efficient frame extraction methods are needed for long-term temporal reasoning in videos.
     *   citation: 19
 
@@ -1893,7 +1891,7 @@ e.g., Mamba, linear attention
     *   Focus: Proposes a new approach for long, egocentric video understanding to address robotics applications.
     *   citation: 42
 
-*   **[RGNet: A Unified Clip Retrieval and Grounding Network for Long Videos](http://arxiv.org/abs/2312.06729v3)** (2023.12)
+*   **[RGNet: A Unified Clip Retrieval and Grounding Network for Long Videos](http://arxiv.org/abs/2312.06729v3)** (ECCV2024 2023.12)
     *   Focus: Adapting short video grounding methods to locate moments in long videos.
     *   citation: 9
 
@@ -1905,7 +1903,7 @@ e.g., Mamba, linear attention
     *   Focus: Video topic segmentation reveals semantic structure and is vital for video understanding tasks.
     *   citation: 0
 
-*   **[PALM: Predicting Actions through Language Models](http://arxiv.org/abs/2311.17944v2)** (2023.11)
+*   **[PALM: Predicting Actions through Language Models](http://arxiv.org/abs/2311.17944v2)** (ECCV2024 2023.11)
     *   Focus: Explores challenges in egocentric vision for human activity understanding.
     *   citation: 20
 
@@ -1925,11 +1923,11 @@ e.g., Mamba, linear attention
     *   Focus: An approach identifies robot trajectory sub-tasks using language instructions from demonstrations.
     *   citation: 1
 
-*   **[Helping Hands: An Object-Aware Ego-Centric Video Recognition Model](http://arxiv.org/abs/2308.07918v1)** (2023.08)
+*   **[Helping Hands: An Object-Aware Ego-Centric Video Recognition Model](http://arxiv.org/abs/2308.07918v1)** (ICCV2023 2023.08)
     *   Focus: An object-aware decoder improves ego-centric video understanding by enhancing object-awareness during training.
     *   citation: 34
 
-*   **[Single-Stage Visual Query Localization in Egocentric Videos](http://arxiv.org/abs/2306.09324v1)** (2023.06)
+*   **[Single-Stage Visual Query Localization in Egocentric Videos](http://arxiv.org/abs/2306.09324v1)** (NeurIPS2023 2023.06)
     *   Focus: This paper addresses visual query localization in long egocentric videos for episodic memory systems.
     *   citation: 19
 
@@ -1937,7 +1935,7 @@ e.g., Mamba, linear attention
     *   Focus: Video activity localization retrieves actions of interest with timestamps from long untrimmed videos.
     *   citation: 13
 
-*   **[Diffusion Action Segmentation](http://arxiv.org/abs/2303.17959v2)** (2023.03)
+*   **[Diffusion Action Segmentation](http://arxiv.org/abs/2303.17959v2)** (ICCV2023 2023.03)
     *   Focus: A novel method for temporal action segmentation in long videos is proposed.
     *   citation: 95
 
@@ -1945,7 +1943,7 @@ e.g., Mamba, linear attention
     *   Focus: Video understanding tasks vary in inputs and goals, requiring flexible models.
     *   citation: 8
 
-*   **[Efficient Movie Scene Detection using State-Space Transformers](http://arxiv.org/abs/2212.14427v2)** (2022.12)
+*   **[Efficient Movie Scene Detection using State-Space Transformers](http://arxiv.org/abs/2212.14427v2)** (CVPR2023 2022.12)
     *   Focus: Movie scene detection is challenging due to the need to understand complex storylines and temporal dynamics.
     *   citation: 62
 
@@ -1957,7 +1955,7 @@ e.g., Mamba, linear attention
     *   Focus: Report on Ego4D natural language query challenge for comprehensive video understanding.
     *   citation: 4
 
-*   **[Can Shuffling Video Benefit Temporal Bias Problem: A Novel Training Framework for Temporal Grounding](http://arxiv.org/abs/2207.14698v2)** (2022.07)
+*   **[Can Shuffling Video Benefit Temporal Bias Problem: A Novel Training Framework for Temporal Grounding](http://arxiv.org/abs/2207.14698v2)** (ECCV2022 2022.07)
     *   Focus: Current temporal grounding methods struggle with severe performance issues in untrimmed videos.
     *   citation: 33
 
@@ -1977,11 +1975,11 @@ e.g., Mamba, linear attention
     *   Focus: Long video understanding faces memory limits for end-to-end training of temporal localization tasks.
     *   citation: 26
 
-*   **[Temporal Alignment Networks for Long-term Video](http://arxiv.org/abs/2204.02968v1)** (2022.04)
+*   **[Temporal Alignment Networks for Long-term Video](http://arxiv.org/abs/2204.02968v1)** (CVPR2022 2022.04)
     *   Focus: A network aligns long videos with text sentences, determining if alignment is possible.
     *   citation: 101
 
-*   **[Long Movie Clip Classification with State-Space Video Models](http://arxiv.org/abs/2204.01692v3)** (2022.04)
+*   **[Long Movie Clip Classification with State-Space Video Models](http://arxiv.org/abs/2204.01692v3)** (ECCV2022 2022.04)
     *   Focus: Short video models struggle with long movie understanding tasks.
     *   citation: 136
 
@@ -2032,7 +2030,7 @@ e.g., Mamba, linear attention
     *   Focus: A framework reconstructs long-sequence 3D human motion from in-the-wild videos with shot transitions.
     *   citation: 3
 
-*   **[Video-Mined Task Graphs for Keystep Recognition in Instructional Videos](http://arxiv.org/abs/2307.08763v2)** (2023.07)
+*   **[Video-Mined Task Graphs for Keystep Recognition in Instructional Videos](http://arxiv.org/abs/2307.08763v2)** (NeurIPS2023 2023.07)
     *   Focus: Procedural activity understanding analyzes sequential human actions in long videos to achieve task goals.
     *   citation: 33
 
@@ -2125,7 +2123,7 @@ e.g., Mamba, linear attention
     *   Focus: Recent findings challenge the belief that offline methods outperform online frame-by-frame processing in Video Instance Segmentation.
     *   citation: 8
 
-*   **[VITA: Video Instance Segmentation via Object Token Association](http://arxiv.org/abs/2206.04403v2)** (2022.06)
+*   **[VITA: Video Instance Segmentation via Object Token Association](http://arxiv.org/abs/2206.04403v2)** (NeurIPS2022 2022.06)
     *   Focus: A new offline VIS method uses object-oriented information to improve video context understanding.
     *   citation: 121
 
@@ -2153,7 +2151,7 @@ e.g., Mamba, linear attention
     *   Focus: Proposes zero-shot video QA via procedural programs solving visual subtasks.
     *   citation: 37
 
-*   **[EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding](http://arxiv.org/abs/2308.09126v1)** (2023.08)
+*   **[EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding](http://arxiv.org/abs/2308.09126v1)** (NeurIPS2023 2023.08)
     *   Focus: EgoSchema is a long-form video QA dataset and benchmark for evaluating video understanding systems.
     *   citation: 463
 
@@ -2169,7 +2167,7 @@ e.g., Mamba, linear attention
     *   Focus: Video QA remains a major challenge in vision-language understanding compared to image QA.
     *   citation: 70
 
-*   **[MUVR: A Multi-Modal Untrimmed Video Retrieval Benchmark with Multi-Level Visual Correspondence](http://arxiv.org/abs/2510.21406v1)** (2025.10)
+*   **[MUVR: A Multi-Modal Untrimmed Video Retrieval Benchmark with Multi-Level Visual Correspondence](http://arxiv.org/abs/2510.21406v1)** (NeurIPS2025 2025.10)
     *   Focus: Proposes MUVR benchmark for multi-modal untrimmed video retrieval on long videos.
     *   citation: 0
 
@@ -2185,7 +2183,7 @@ e.g., Mamba, linear attention
     *   Focus: LLMs enhance video tasks like action recognition and anomaly detection despite unique challenges.
     *   citation: 9
 
-*   **[Video Repurposing from User Generated Content: A Large-scale Dataset and Benchmark](http://arxiv.org/abs/2412.08879v2)** (2024.12)
+*   **[Video Repurposing from User Generated Content: A Large-scale Dataset and Benchmark](http://arxiv.org/abs/2412.08879v2)** (ICCV2025 2024.12)
     *   Focus: Short-form video demand grows, but current summarization methods remain inadequate.
     *   citation: 4
 
@@ -2224,7 +2222,7 @@ e.g., Mamba, linear attention
     *   Focus: Virtual reality may enable loving-kindness meditation for isolated couples in therapy.
     *   citation: 10
 
-*   **[EPIC-KITCHENS VISOR Benchmark: VIdeo Segmentations and Object Relations](http://arxiv.org/abs/2209.13064v1)** (2022.09)
+*   **[EPIC-KITCHENS VISOR Benchmark: VIdeo Segmentations and Object Relations](http://arxiv.org/abs/2209.13064v1)** (NeurIPS2022 2022.09)
     *   Focus: VISOR introduces a pixel-level annotation dataset and benchmark for hand and active object segmentation in egocentric video.
     *   citation: 127
 
@@ -2240,7 +2238,7 @@ e.g., Mamba, linear attention
     *   Focus: PAD3R reconstructs deformable 3D objects from long, unposed monocular videos.
     *   citation: 0
 
-*   **[EPIC-KITCHENS VISOR Benchmark: VIdeo Segmentations and Object Relations](http://arxiv.org/abs/2209.13064v1)** (2022.09)
+*   **[EPIC-KITCHENS VISOR Benchmark: VIdeo Segmentations and Object Relations](http://arxiv.org/abs/2209.13064v1)** (NeurIPS2022 2022.09)
     *   Focus: VISOR introduces a pixel-level annotation dataset and benchmark for hand and active object segmentation in egocentric video.
     *   citation: 127
 
@@ -2260,7 +2258,7 @@ e.g., Mamba, linear attention
     *   Focus: Procedural videos help embodied agents learn skills from human demonstrations.
     *   citation: 2
 
-*   **[EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought](http://arxiv.org/abs/2305.15021v2)** (2023.05)
+*   **[EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought](http://arxiv.org/abs/2305.15021v2)** (NeurIPS2023 2023.05)
     *   Focus: Introduces Embodied AI for long-horizon robot task planning and execution in physical environments.
     *   citation: 334
 
@@ -2281,4 +2279,5 @@ e.g., Mamba, linear attention
     *   citation: 5
 
 *   **[VideoPASTA: 7K Preference Pairs That Matter for Video-LLM Alignment](http://arxiv.org/abs/2504.14096v3)** (2025.04)
-    *   Focus: Introduces a new method to improve Video-LLMs' spatial, temporal, and cross-frame understanding.    *   citation: 4
+    *   Focus: Introduces a new method to improve Video-LLMs' spatial, temporal, and cross-frame understanding.    
+    *   citation: 4
