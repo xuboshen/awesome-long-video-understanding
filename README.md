@@ -6,13 +6,17 @@ Update date: 7th Dec 2025
 
 A curated list of papers, datasets, and benchmarks for **Long Video Understanding**, with a special focus on but not limited to Multimodal Large Multimodal Models (LMMs).
 
-Note: The *focus* of each paper is summarized from its arxiv abstract using DeepSeek-V3. Due to the large number of papers, there may be mistakes. If you find any, please open an issue to let us know. Thank you!
+Note: The focus of each paper is automatically summarized from its arXiv abstract using DeepSeek-V3 / first sentence of the abstract, and citations are sourced via Semantic Scholar. Given the large number of papers, some mistakes may exist. If you notice any errors, please open an issue to let me know. Thank you!
+
 
 ## 📋 Table of Contents
 - [🎥 Awesome-Long-Video-Understanding](#-awesome-long-video-understanding)
   - [📋 Table of Contents](#-table-of-contents)
     - [Benchmark](#benchmark)
-    - [Vision-Language Models](#vision-language-models)
+      - [Omni Benchmarks](#omni-benchmarks)
+    - [Vision Language Models](#vision-language-models)
+      - [Video LLM](#video-llm)
+      - [Omni MLLM](#omni-mllm)
     - [Subsampling methods](#subsampling-methods)
       - [RAG / Memory / Agentic / Language Repository / Frame Sampling Methods](#rag--memory--agentic--language-repository--frame-sampling-methods)
     - [Compression methods](#compression-methods)
@@ -368,7 +372,47 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
     *   citation: 1 [[arxiv bibtex]](https://arxiv.org/bibtex/2505.08455) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22VCRBench%3A%20Exploring%20Long-form%20Causal%20Reasoning%20Capabilities%20of%20Large%20Video%20Language%20Models%22)
 
 
-### Vision-Language Models
+
+#### Omni Benchmarks
+
+*   **[Benchmarking Omni-Vision Representation through the Lens of Visual Realms](http://arxiv.org/abs/2207.07106v2)** (2022.07)
+    *   Focus: Though impressive performance has been achieved in specific visual realms
+    *   citation: 34 [[arxiv bibtex]](https://arxiv.org/bibtex/2207.07106) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Benchmarking Omni-Vision Representation through the Lens of Visual Realms%22)
+
+*   **[UGC-VideoCaptioner: An Omni UGC Video Detail Caption Model and New Benchmarks](http://arxiv.org/abs/2507.11336v2)** (2025.07)
+    *   Focus: Real-world user-generated videos, especially on platforms like TikTok, often feature rich and intertwined audio visual content.
+    *   citation: 2 [[arxiv bibtex]](https://arxiv.org/bibtex/2507.11336) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22UGC-VideoCaptioner: An Omni UGC Video Detail Caption Model and New Benchmarks%22)
+
+*   **[Omni-SafetyBench: A Benchmark for Safety Evaluation of Audio-Visual Large Language Models](http://arxiv.org/abs/2508.07173v2)** (2025.08)
+    *   Focus: The rise of Omni-modal Large Language Models (OLLMs), which integrate visual and auditory processing with text, necessitates robust safety evaluations to mitigate harmful outputs.
+    *   citation: 1 [[arxiv bibtex]](https://arxiv.org/bibtex/2508.07173) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Omni-SafetyBench: A Benchmark for Safety Evaluation of Audio-Visual Large Language Models%22)
+
+*   **[OmniEval: A Benchmark for Evaluating Omni-modal Models with Visual, Auditory, and Textual Inputs](http://arxiv.org/abs/2506.20960v2)** (2025.06)
+    *   Focus: In this paper, we introduce OmniEval, a benchmark for evaluating omni-modality models like MiniCPM-O 2.6, which encompasses visual, auditory, and textual inputs.
+    *   citation: 1 [[arxiv bibtex]](https://arxiv.org/bibtex/2506.20960) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22OmniEval: A Benchmark for Evaluating Omni-modal Models with Visual, Auditory, and Textual Inputs%22)
+
+*   **[XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models](http://arxiv.org/abs/2510.15148v1)** (2025.10)
+    *   Focus: Omni-modal large language models (OLLMs) aim to unify audio, vision, and text understanding within a single framework.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2510.15148) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models%22)
+
+*   **[OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs](http://arxiv.org/abs/2510.10689v1)** (2025.10)
+    *   Focus: Recent advances in multimodal large language models (MLLMs) have demonstrated substantial potential in video understanding.
+    *   citation: 5 [[arxiv bibtex]](https://arxiv.org/bibtex/2510.10689) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs%22)
+
+*   **[OmniBench: Towards The Future of Universal Omni-Language Models](http://arxiv.org/abs/2409.15272v5)** (2024.09)
+    *   Focus: Recent advancements in multimodal large language models (MLLMs) have focused on integrating multiple modalities, yet their ability to simultaneously process and reason across different inputs remains underexplored.
+    *   citation: 48 [[arxiv bibtex]](https://arxiv.org/bibtex/2409.15272) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22OmniBench: Towards The Future of Universal Omni-Language Models%22)
+
+*   **[OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts](http://arxiv.org/abs/2503.22952v1)** (2025.03)
+    *   Focus: The rapid advancement of multi-modal language models (MLLMs) like GPT-4o has propelled the development of Omni language models, designed to process and proactively respond to continuous streams of multi-modal data.
+    *   citation: 7 [[arxiv bibtex]](https://arxiv.org/bibtex/2503.22952) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts%22)
+
+### Vision Language Models
+#### Video LLM
+*   **[NVILA: Efficient Frontier Visual Language Models](http://arxiv.org/abs/2412.04468v2)** (2024.12)
+    *   Focus: Visual language models (VLMs) have made significant advances in accuracy in recent years.
+    *   citation: 126 [[arxiv bibtex]](https://arxiv.org/bibtex/2412.04468) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="NVILA:%20Efficient%20Frontier%20Visual%20Language%20Models")
+
 *   **[Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities](http://arxiv.org/abs/2507.06261v5)** (2025.07)
     *   Focus: Introduces the Gemini 2.X model family including Pro and Flash variants.
     *   citation: 1054 [[arxiv bibtex]](https://arxiv.org/bibtex/2507.06261) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Gemini%202.5%3A%20Pushing%20the%20Frontier%20with%20Advanced%20Reasoning%2C%20Multimodality%2C%20Long%20Context%2C%20and%20Next%20Generation%20Agentic%20Capabilities%22)
@@ -389,6 +433,10 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
 *   **[Qwen2.5-VL Technical Report](http://arxiv.org/abs/2502.13923v1)** (2025.02)
     *   Focus: Qwen2.5-VL advances vision-language capabilities with new features and improved performance.
     *   citation: 2376 [[arxiv bibtex]](https://arxiv.org/bibtex/2502.13923) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Qwen2.5-VL%20Technical%20Report%22)
+
+*   **[MiMo-VL Technical Report](http://arxiv.org/abs/2506.03569v1)** (2025.06)
+    *   Focus: We open-source MiMo-VL-7B-SFT and MiMo-VL-7B-RL, two powerful vision-language models delivering state-of-the-art performance in both general visual understanding and multimodal reasoning.
+    *   citation: 10 [[arxiv bibtex]](https://arxiv.org/bibtex/2506.03569) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="MiMo-VL%20Technical%20Report")
 
 *   **[Kimi-VL Technical Report](http://arxiv.org/abs/2504.07491v3)** (2025.04)
     *   Focus: Kimi-VL is an efficient open-source MoE vision-language model for multimodal reasoning and long-context understanding.
@@ -458,6 +506,134 @@ Note: The *focus* of each paper is summarized from its arxiv abstract using Deep
 *   **[Koala: Key frame-conditioned long video-LLM](http://arxiv.org/abs/2404.04346v3)** (CVPR2024 2024.04)
     *   Focus: Video LLMs struggle with long videos due to short-term focus and lack of fine-grained relationship reasoning.
     *   citation: 58 [[arxiv bibtex]](https://arxiv.org/bibtex/2404.04346) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Koala%3A%20Key%20frame-conditioned%20long%20video-LLM%22)
+
+
+#### Omni MLLM
+
+*   **[Ming-Omni: A Unified Multimodal Model for Perception and Generation](http://arxiv.org/abs/2506.09344v1)** (2025.06)
+    *   Focus: We propose Ming-Omni, a unified multimodal model capable of processing images, text, audio, and video, while demonstrating strong proficiency in both speech and image generation.
+    *   citation: 18 [[arxiv bibtex]](https://arxiv.org/bibtex/2506.09344) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="Ming-Omni:%20A%20Unified%20Multimodal%20Model%20for%20Perception%20and%20Generation")
+
+*   **[Baichuan-Omni-1.5 Technical Report](http://arxiv.org/abs/2501.15368v1)** (2025.01)
+    *   Focus: We introduce Baichuan-Omni-1.
+    *   citation: 55 [[arxiv bibtex]](https://arxiv.org/bibtex/2501.15368) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="Baichuan-Omni-1.5%20Technical%20Report")
+
+*   **[Megrez-Omni Technical Report](http://arxiv.org/abs/2502.15803v1)** (2025.02)
+    *   Focus: In this work, we present the Megrez models, comprising a language model (Megrez-3B-Instruct) and a multimodal model (Megrez-3B-Omni).
+    *   citation: 1 [[arxiv bibtex]](https://arxiv.org/bibtex/2502.15803) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="Megrez-Omni%20Technical%20Report")
+
+*   **[LongCat-Flash-Omni Technical Report](http://arxiv.org/abs/2511.00279v2)** (2025.10)
+    *   Focus: We introduce LongCat-Flash-Omni, a state-of-the-art open-source omni-modal model with 560 billion parameters, excelling at real-time audio-visual interaction.
+    *   citation: 1 [[arxiv bibtex]](https://arxiv.org/bibtex/2511.00279) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="LongCat-Flash-Omni%20Technical%20Report")
+
+*   **[Qwen3-Omni Technical Report](http://arxiv.org/abs/2509.17765v1)** (2025.09)
+    *   Focus: We present Qwen3-Omni, a single multimodal model that, for the first time, maintains state-of-the-art performance across text, image, audio, and video without any degradation relative to single-modal counterparts.
+    *   code: [https://github.com/QwenLM/Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni)
+    *   citation: 31 [[arxiv bibtex]](https://arxiv.org/bibtex/2509.17765) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="Qwen3-Omni%20Technical%20Report")
+
+*   **[Omni-Captioner: Data Pipeline, Models, and Benchmark for Omni Detailed Perception](http://arxiv.org/abs/2510.12720v1)** (2025.10)
+    *   Focus: Fine-grained perception of multimodal information is critical for advancing human-AI interaction.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2510.12720) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Omni-Captioner: Data Pipeline, Models, and Benchmark for Omni Detailed Perception%22)
+
+*   **[Stream-Omni: Simultaneous Multimodal Interactions with Large Language-Vision-Speech Model](http://arxiv.org/abs/2506.13642v2)** (2025.06)
+    *   Focus: The emergence of GPT-4o-like large multimodal models (LMMs) has raised the exploration of integrating text, vision, and speech modalities to support more flexible multimodal interaction.
+    *   citation: 7 [[arxiv bibtex]](https://arxiv.org/bibtex/2506.13642) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Stream-Omni: Simultaneous Multimodal Interactions with Large Language-Vision-Speech Model%22)
+
+*   **[Omni-RGPT: Unifying Image and Video Region-level Understanding via Token Marks](http://arxiv.org/abs/2501.08326v2)** (2025.01)
+    *   Focus: We present Omni-RGPT, a multimodal large language model designed to facilitate region-level comprehension for both images and videos.
+    *   citation: 6 [[arxiv bibtex]](https://arxiv.org/bibtex/2501.08326) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Omni-RGPT: Unifying Image and Video Region-level Understanding via Token Marks%22)
+
+*   **[OmniPlay: Benchmarking Omni-Modal Models on Omni-Modal Game Playing](http://arxiv.org/abs/2508.04361v3)** (2025.08)
+    *   Focus: While generalist foundation models like Gemini and GPT-4o demonstrate impressive multi-modal competence, existing evaluations fail to test their intelligence in dynamic, interactive worlds.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2508.04361) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22OmniPlay: Benchmarking Omni-Modal Models on Omni-Modal Game Playing%22)
+
+*   **[AnyCap Project: A Unified Framework, Dataset, and Benchmark for Controllable Omni-modal Captioning](http://arxiv.org/abs/2507.12841v2)** (2025.07)
+    *   Focus: Controllable captioning is essential for precise multimodal alignment and instruction following, yet existing models often lack fine-grained control and reliable evaluation protocols.
+    *   citation: 2 [[arxiv bibtex]](https://arxiv.org/bibtex/2507.12841) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22AnyCap Project: A Unified Framework, Dataset, and Benchmark for Controllable Omni-modal Captioning%22)
+
+*   **[Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences](http://arxiv.org/abs/2510.23451v1)** (2025.10)
+    *   Focus: Reward models (RMs) play a critical role in aligning AI behaviors with human preferences, yet they face two fundamental challenges: (1) Modality Imbalance, where most RMs are mainly focused on text and image modalities, offering limited support for video, audio, and other modalities; and (2) Preference Rigidity, where training on fixed binary preference pairs fails to capture the complexity and diversity of personalized preferences.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2510.23451) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences%22)
+
+*   **[Omni-DPO: A Dual-Perspective Paradigm for Dynamic Preference Learning of LLMs](http://arxiv.org/abs/2506.10054v2)** (2025.06)
+    *   Focus: Direct Preference Optimization (DPO) has become a cornerstone of reinforcement learning from human feedback (RLHF) due to its simplicity and efficiency.
+    *   citation: 4 [[arxiv bibtex]](https://arxiv.org/bibtex/2506.10054) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Omni-DPO: A Dual-Perspective Paradigm for Dynamic Preference Learning of LLMs%22)
+
+*   **[Qwen2.5-Omni Technical Report](http://arxiv.org/abs/2503.20215v1)** (2025.03)
+    *   Focus: In this report, we present Qwen2.5-Omni, an end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses in a streaming manner.
+    *   citation: 296 [[arxiv bibtex]](https://arxiv.org/bibtex/2503.20215) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Qwen2.5-Omni Technical Report%22)
+
+*   **[Omni-AutoThink: Adaptive Multimodal Reasoning via Reinforcement Learning](http://arxiv.org/abs/2512.03783v2)** (2025.12)
+    *   Focus: Recent advances in Omni models have enabled unified multimodal perception and generation.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2512.03783) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Omni-AutoThink: Adaptive Multimodal Reasoning via Reinforcement Learning%22)
+
+*   **[OmniGuard: Unified Omni-Modal Guardrails with Deliberate Reasoning](http://arxiv.org/abs/2512.02306v1)** (2025.12)
+    *   Focus: Omni-modal Large Language Models (OLLMs) that process text, images, videos, and audio introduce new challenges for safety and value guardrails in human-AI interaction.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2512.02306) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22OmniGuard: Unified Omni-Modal Guardrails with Deliberate Reasoning%22)
+
+*   **[See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models](http://arxiv.org/abs/2512.02231v1)** (2025.12)
+    *   Focus: Multimodal large language models (MLLMs) are expected to jointly interpret vision, audio, and language, yet existing video benchmarks rarely assess fine-grained reasoning about human speech.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2512.02231) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models%22)
+
+*   **[From Specific-MLLMs to Omni-MLLMs: A Survey on MLLMs Aligned with Multi-modalities](http://arxiv.org/abs/2412.11694v3)** (2024.12)
+    *   Focus: To tackle complex tasks in real-world scenarios, more researchers are focusing on Omni-MLLMs, which aim to achieve omni-modal understanding and generation.
+    *   citation: 5 [[arxiv bibtex]](https://arxiv.org/bibtex/2412.11694) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22From Specific-MLLMs to Omni-MLLMs: A Survey on MLLMs Aligned with Multi-modalities%22)
+
+*   **[M2-omni: Advancing Omni-MLLM for Comprehensive Modality Support with Competitive Performance](http://arxiv.org/abs/2502.18778v3)** (2025.02)
+    *   Focus: We present M2-omni, a cutting-edge, open-source omni-MLLM that achieves competitive performance to GPT-4o.
+    *   citation: 12 [[arxiv bibtex]](https://arxiv.org/bibtex/2502.18778) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22M2-omni: Advancing Omni-MLLM for Comprehensive Modality Support with Competitive Performance%22)
+
+*   **[Mini-Omni-Reasoner: Token-Level Thinking-in-Speaking in Large Speech Models](http://arxiv.org/abs/2508.15827v2)** (2025.08)
+    *   Focus: Reasoning is essential for effective communication and decision-making.
+    *   citation: 5 [[arxiv bibtex]](https://arxiv.org/bibtex/2508.15827) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Mini-Omni-Reasoner: Token-Level Thinking-in-Speaking in Large Speech Models%22)
+
+*   **[Omni-Emotion: Extending Video MLLM with Detailed Face and Audio Modeling for Multimodal Emotion Analysis](http://arxiv.org/abs/2501.09502v1)** (2025.01)
+    *   Focus: Understanding emotions accurately is essential for fields like human-computer interaction.
+    *   citation: 18 [[arxiv bibtex]](https://arxiv.org/bibtex/2501.09502) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Omni-Emotion: Extending Video MLLM with Detailed Face and Audio Modeling for Multimodal Emotion Analysis%22)
+
+*   **[Capybara-OMNI: An Efficient Paradigm for Building Omni-Modal Language Models](http://arxiv.org/abs/2504.12315v1)** (2025.04)
+    *   Focus: With the development of Multimodal Large Language Models (MLLMs), numerous outstanding accomplishments have emerged within the open-source community.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2504.12315) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Capybara-OMNI: An Efficient Paradigm for Building Omni-Modal Language Models%22)
+
+*   **[Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities](http://arxiv.org/abs/2505.17862v1)** (2025.05)
+    *   Focus: Recent Multimodal Large Language Models (MLLMs) achieve promising performance on visual and audio benchmarks independently.
+    *   citation: 17 [[arxiv bibtex]](https://arxiv.org/bibtex/2505.17862) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities%22)
+
+*   **[Lyra: An Efficient and Speech-Centric Framework for Omni-Cognition](http://arxiv.org/abs/2412.09501v1)** (2024.12)
+    *   Focus: As Multi-modal Large Language Models (MLLMs) evolve, expanding beyond single-domain capabilities is essential to meet the demands for more versatile and efficient AI.
+    *   citation: 17 [[arxiv bibtex]](https://arxiv.org/bibtex/2412.09501) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Lyra: An Efficient and Speech-Centric Framework for Omni-Cognition%22)
+
+*   **[When Eyes and Ears Disagree: Can MLLMs Discern Audio-Visual Confusion?](http://arxiv.org/abs/2511.10059v1)** (2025.11)
+    *   Focus: Can Multimodal Large Language Models (MLLMs) discern confused objects that are visually present but audio-absent?
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2511.10059) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22When Eyes and Ears Disagree: Can MLLMs Discern Audio-Visual Confusion?%22)
+
+*   **[OralGPT-Omni: A Versatile Dental Multimodal Large Language Model](http://arxiv.org/abs/2511.22055v1)** (2025.11)
+    *   Focus: Multimodal Large Language Models (MLLMs) have exhibited immense potential across numerous medical specialties; yet, dentistry remains underexplored, in part due to limited domain-specific data, scarce dental expert annotations, insufficient modality-specific modeling, and challenges in reliability.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2511.22055) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22OralGPT-Omni: A Versatile Dental Multimodal Large Language Model%22)
+
+*   **[Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything](http://arxiv.org/abs/2511.02834v2)** (2025.11)
+    *   Focus: Multimodal large language models (MLLMs) have shown strong capabilities but remain limited to fixed modality pairs and require costly fine-tuning with large aligned datasets.
+    *   citation: 0 [[arxiv bibtex]](https://arxiv.org/bibtex/2511.02834) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything%22)
+
+*   **[Baichuan-Omni Technical Report](http://arxiv.org/abs/2410.08565v4)** (2024.10)
+    *   Focus: The salient multimodal capabilities and interactive experience of GPT-4o highlight its critical role in practical applications, yet it lacks a high-performing open-source counterpart.
+    *   citation: 20 [[arxiv bibtex]](https://arxiv.org/bibtex/2410.08565) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Baichuan-Omni Technical Report%22)
+
+*   **[HumanSense: From Multimodal Perception to Empathetic Context-Aware Responses through Reasoning MLLMs](http://arxiv.org/abs/2508.10576v3)** (2025.08)
+    *   Focus: While Multimodal Large Language Models (MLLMs) show immense promise for achieving truly human-like interactions, progress is hindered by the lack of fine-grained evaluation frameworks for human-centered scenarios, encompassing both the understanding of complex human intentions and the provision of empathetic, context-aware responses.
+    *   citation: 1 [[arxiv bibtex]](https://arxiv.org/bibtex/2508.10576) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22HumanSense: From Multimodal Perception to Empathetic Context-Aware Responses through Reasoning MLLMs%22)
+
+*   **[Omni-Video: Democratizing Unified Video Understanding and Generation](http://arxiv.org/abs/2507.06119v3)** (2025.07)
+    *   Focus: Notable breakthroughs in unified understanding and generation modeling have led to remarkable advancements in image understanding, reasoning, production and editing, yet current foundational models predominantly focus on processing images, creating a gap in the development of unified models for video understanding and generation.
+    *   citation: 5 [[arxiv bibtex]](https://arxiv.org/bibtex/2507.06119) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Omni-Video: Democratizing Unified Video Understanding and Generation%22)
+
+*   **[RoboOmni: Proactive Robot Manipulation in Omni-modal Context](http://arxiv.org/abs/2510.23763v3)** (2025.10)
+    *   Focus: Recent advances in Multimodal Large Language Models (MLLMs) have driven rapid progress in Vision-Language-Action (VLA) models for robotic manipulation.
+    *   citation: 1 [[arxiv bibtex]](https://arxiv.org/bibtex/2510.23763) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22RoboOmni: Proactive Robot Manipulation in Omni-modal Context%22)
+
+*   **[Ming-Lite-Uni: Advancements in Unified Architecture for Natural Multimodal Interaction](http://arxiv.org/abs/2505.02471v3)** (2025.05)
+    *   Focus: We introduce Ming-Lite-Uni, an open-source multimodal framework featuring a newly designed unified visual generator and a native multimodal autoregressive model tailored for unifying vision and language.
+    *   citation: 9 [[arxiv bibtex]](https://arxiv.org/bibtex/2505.02471) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22Ming-Lite-Uni: Advancements in Unified Architecture for Natural Multimodal Interaction%22)
 
 ### Subsampling methods
 #### RAG / Memory / Agentic / Language Repository / Frame Sampling Methods
@@ -900,6 +1076,14 @@ e.g., Mamba, linear attention
     *   citation: 1 [[arxiv bibtex]](https://arxiv.org/bibtex/2506.13564) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22MambaMia%3A%20A%20State-Space-Model-Based%20Compression%20for%20Efficient%20Video%20Understanding%20in%20Large%20Multimodal%20Models%22)
 
 #### Token Compression
+
+*   **[BIMBA: Selective-Scan Compression for Long-Range Video Question Answering](http://arxiv.org/abs/2503.09590v2)** (CVPR 2025 2025.03)
+    *   Focus: Video Question Answering (VQA) in long videos poses the key challenge of extracting relevant information and modeling long-range dependencies from many redundant frames.
+    *   citation: 10 [[arxiv bibtex]](https://arxiv.org/bibtex/2503.09590) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="BIMBA:%20Selective-Scan%20Compression%20for%20Long-Range%20Video%20Question%20Answering")
+
+*   **[Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding](http://arxiv.org/abs/2311.08046v3)** (CVPR 2024 2023.11)
+    *   Focus: Large language models have demonstrated impressive universal capabilities across a wide range of open-ended tasks and have extended their utility to encompass multimodal conversations.
+    *   citation: 340 [[arxiv bibtex]](https://arxiv.org/bibtex/2311.08046) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q="Chat-UniVi:%20Unified%20Visual%20Representation%20Empowers%20Large%20Language%20Models%20with%20Image%20and%20Video%20Understanding")
 
 *   **[LongVLM: Efficient Long Video Understanding via Large Language Models](http://arxiv.org/abs/2404.03384v3)** (ECCV2024 2024.04)
     *   Focus: VideoLLMs use LLMs for video understanding by encoding video representations.
@@ -2515,3 +2699,4 @@ e.g., Mamba, linear attention
 *   **[VideoPASTA: 7K Preference Pairs That Matter for Video-LLM Alignment](http://arxiv.org/abs/2504.14096v3)** (2025.04)
     *   Focus: Introduces a new method to improve Video-LLMs' spatial, temporal, and cross-frame understanding.    
     *   citation: 4 [[arxiv bibtex]](https://arxiv.org/bibtex/2504.14096) [[google scholar bibtex]](https://scholar.google.com/scholar?hl=en&q=%22VideoPASTA%3A%207K%20Preference%20Pairs%20That%20Matter%20for%20Video-LLM%20Alignment%22)
+

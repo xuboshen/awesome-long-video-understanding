@@ -1,0 +1,6 @@
+*.json
+*.bib
+*.txt
+*.py
+__pycache__/
+*.progress
